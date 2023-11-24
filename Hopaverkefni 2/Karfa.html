@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-white shadow">
+        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+            <a href="index.html">
+                <h1 class="text-3xl font-bold">Vefforritunarbúðin</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="Nýskrá.html" class="text-gray-500 hover:text-gray-900">Nýskrá</a></li>
+                    <li><a href="Innskráning.html" class="text-gray-500 hover:text-gray-900">Innskrá</a></li>
+                    <li><a href="Karfa.html" class="text-gray-500 hover:text-gray-900">Karfa</a></li>
+                    <li><a href="New.html" class="text-gray-500 hover:text-gray-900">Nýjar vörur</a></li>
+
+                    <li><a href="Flokkar.html" class="text-gray-500 hover:text-gray-900">Flokkar</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    </header>
+<head>
+    <title>Karfa</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="goBack()">Fara til baka</button>
+    <h2>Karfan þín</h2>
+    <table>
+        <tr>
+            <th>Vörur</th>
+            <th>Magn</th>
+            <th>Verð</th>
+        </tr>
+        <tr>
+            <td>Vara 1</td>
+            <td>1</td>
+            <td>99 kr.-</td>
+        </tr>
+        <tr>
+            <td>Vara 2</td>
+            <td>2</td>
+            <td>100 kr.-</td>
+        </tr>
+    </table>
+    <h3>Heildarverð: 199 kr.-</h3>
+    <button>Kaupa</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
